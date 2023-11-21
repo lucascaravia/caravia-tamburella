@@ -1,0 +1,12 @@
+<script setup>
+</script>
+
+<template>
+<h1>
+header
+</h1>
+	<div class=" max-w-7xl mx-auto"
+	<Nav/>
+	    <RouterView/>
+	</div>
+</template>

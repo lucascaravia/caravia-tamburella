@@ -1,0 +1,112 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "nombre": "El Padrino",
+      "categoria": "Clásico",
+      "año_lanzamiento": 1972,
+      "sinopsis": "La historia de la familia Corleone y su imperio criminal en el mundo de la mafia.",
+      "restriccion_edad": 18,
+      "poster":"../public/posters/el_padrino.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Inception",
+      "categoria": "Ciencia ficción",
+      "año_lanzamiento": 2010,
+      "sinopsis": "Un ladrón especializado en robar secretos a través de los sueños es contratado para realizar una misión imposible: implantar una idea en la mente de alguien.",
+      "restriccion_edad": 13,
+     "poster":"../public/posters/Inception.jpg"
+    },
+    {
+      "id": 3,
+      	"nombre": "Mad Max: Fury Road",
+  	"categoria": "Acción",
+  	"año_lanzamiento": 2015,
+ 	"sinopsis": "En un mundo postapocalíptico, Max Rockatansky se une a Furiosa, una guerrera rebelde, en una frenética carrera para escapar de un tirano y su ejército en vehículos modificados.",
+  	"restriccion_edad": 15,
+	"poster":"../public/posters/mad_max.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "The Shawshank Redemption",
+      "categoria": "Drama",
+      "año_lanzamiento": 1994,
+      "sinopsis": "La historia de Andy Dufresne, un hombre condenado injustamente a cadena perpetua, y su amistad con un compañero de prisión.",
+      "restriccion_edad": 16,
+	"poster":"../public/posters/sueños_de_fuga.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Avengers: Endgame",
+      "categoria": "Acción",
+      "año_lanzamiento": 2019,
+      "sinopsis": "Los héroes de Marvel se unen para enfrentarse al villano Thanos y salvar el universo.",
+      "restriccion_edad": 13,
+      "poster":"../public/posters/End_game.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "The Godfather: Part II",
+      "categoria": "Clásico",
+      "año_lanzamiento": 1974,
+      "sinopsis": "Una secuela que explora la vida temprana y el ascenso al poder de Vito Corleone, junto con la historia continua de su hijo Michael.",
+      "restriccion_edad": 18,
+       "poster":"../public/posters/el_padrinoII.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Parasite",
+      "categoria": "Drama",
+      "año_lanzamiento": 2019,
+      "sinopsis": "Una familia desempleada elabora un plan para infiltrarse en la vida de otra familia adinerada, pero las cosas toman un giro inesperado.",
+      "restriccion_edad": 16,
+       "poster":"../public/posters/Parasite.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Casablanca",
+      "categoria": "Clásico",
+      "año_lanzamiento": 1942,
+      "sinopsis": "En la ciudad de Casablanca durante la Segunda Guerra Mundial, un expatriado americano se ve envuelto en la lucha contra los nazis.",
+      "restriccion_edad": 12,
+       "poster":"../public/posters/casablanca.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Interstellar",
+      "categoria": "Ciencia ficción",
+      "año_lanzamiento": 2014,
+      "sinopsis": "Un grupo de exploradores viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.",
+      "restriccion_edad": 13,
+       "poster":"../public/posters/intelestelar.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "The Dark Knight",
+      "categoria": "Acción",
+      "año_lanzamiento": 2008,
+      "sinopsis": "Batman se enfrenta al Joker, un criminal maestro que busca sumir Gotham City en el caos.",
+      "restriccion_edad": 14,
+       "poster":"../public/posters/el_caballero_oscuro.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "1985",
+      "categoria": "Argentina",
+      "año_lanzamiento": 2022,
+      "sinopsis": "La película cuenta la historia de los fiscales Julio Strassera y Luis Moreno Ocampo que en 1985 decidieron investigar y enjuiciar a la dictadura militar más sangrienta de la historia argentina, sin dejarse intimidar por las amenazas que ellos y sus familias recibían constantemente.",
+      "restriccion_edad": 13,
+       "poster":"../public/posters/1985.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "El secreto de sus ojos",
+      "categoria": "Argentina",
+      "año_lanzamiento": 2009,
+      "sinopsis": "Benjamín Espósito es un oficial de un Juzgado de Instrucción de Buenos Aires que acaba de jubilarse. Su sueño es escribir una novela y, para ello, intentará dar solución a un caso abierto desde hace varias décadas, del cual fue testigo y protagonista. Reviviendo el caso, vuelve también a su memoria el recuerdo de una mujer, a quien ha amado en silencio durante todos esos años.",
+      "restriccion_edad": 13,
+       "poster":"../public/posters/secreto_de_sus_ojos.jpg"
+    }
+  ]
+}

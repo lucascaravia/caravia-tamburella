@@ -1,0 +1,30 @@
+  <template>
+
+<div class"max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gary-700>
+ <div class= "flex justify-center pt-3>
+    <img class" rounded-t-lg" :src="peliculas.poster" :alt="peliculas.nombre"/>  
+ </div>
+  <div class="p-5">
+<RouterLink :to="`/catalogo/${peliculas.id}`"
+<h4 class=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+{{ peliculas.nombre}}
+</h4>
+<RouterLink>
+<h5 class=" mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+{{ peliculas.categoria }}
+</h5>
+
+<span class="mr-4">{{ peliculas.año_lanzamiento }}</span>
+<span>{{ peliculas.sinopsis}}</span>
+  </div>
+ </div
+</template>
+
+  <script setup>
+	defineProps({
+		pelicula: Object
+})
+
+
+
+  </script>

@@ -1,0 +1,20 @@
+<template>
+  <v-parallax
+   class"blur" src="../public/banner-paralax.jpg"
+  >
+    <div class="d-flex flex-column fill-height justify-center align-center text-white">
+      <h1 class="text-h4 font-weight-thin mb-4">
+        CineQuilla
+      </h1>
+      <h4 class="subheading">
+       Encuentra tu pelicula favorita aqui!
+      </h4>
+    </div>
+  </v-parallax>
+</template>
+
+<style>
+  .blur {
+    filter: blur(4px);
+  }
+</style>

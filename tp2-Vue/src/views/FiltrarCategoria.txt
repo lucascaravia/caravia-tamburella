@@ -1,0 +1,30 @@
+  <template>
+
+	<h1>
+		Taquilla
+	</h1>
+<div class="max-w-sm mx-auto" v-if="cargando"><span class="text-2xl font-bold text-indigo-700">Cargando...</span></div>
+	<div class="grid grid-cols-4 gap-3 v-else>
+	     <Cartelera v-for "pelicula in taquilla" :key="peliculas.categoria" :pelicula="pelicula" />
+	</div>
+
+
+  </template>
+
+  <script setup>
+	import {ref. onMounted } from 'vue';
+	import Cartelera from '../components/Cartelera.vue'
+	
+	const taquilla = ref([]);
+	const cargando = ref([true])
+
+	onMoanted(async() => {
+const resultados = await fetch ('localhost/8000/catalogo')
+const response = await resultados.json();
+	taquilla.value = response;
+	cargando.value = false
+	})
+
+
+
+  </script>

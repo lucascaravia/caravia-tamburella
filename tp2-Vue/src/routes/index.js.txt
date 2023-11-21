@@ -1,0 +1,24 @@
+import { createRouter, createWebHistory } from "vue-router";
+
+
+
+const Home = () => import('../views/Home.vue')
+
+
+
+
+const routes =[
+
+   {path: "/", component: Home},
+   {path: "/catalogo", component: () => import('../views/Catalogo.vue')},
+   {path: "/catalogo/:id", component: () => import('../views/DetallePelicula.vue')},
+   {path: "/catalogo/:categoria", component: () => import('../views/FiltrarCategoria.vue')},
+
+];
+
+const router = createRouter({
+
+   history: createWebHistory(),
+   routes
+});
+export default router;

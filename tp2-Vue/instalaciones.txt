@@ -1,0 +1,10 @@
+npm install -g @vue/cli
+create vue CineQuilla
+
+npm i vue-router@4
+npm i vuetify
+npm install -g json-server
+npm install -D tailwindcss
+npx tailwindcss init
+
+json-server --watch dataBase/db.json --port 8000
